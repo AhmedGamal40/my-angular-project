@@ -1,0 +1,13 @@
+
+<div class="card details" style="width:400px">
+    <!-- <img class="card-img-top"  [src]="product.thumbnail" alt="Card image"> -->
+    <div class="card-body">
+      <h3 class="card-title">{{products.title}}</h3>
+      <h6 class="card-text text-primary">Details :</h6>
+      <h6 class="card-text">{{products.description}}</h6>
+      <div class="card-body d-flex text-center" >
+        <p class="card-text mx-5 text-capitalize fw-bold">{{products.brand}} :</p>
+        <p class="card-text" style="font-weight: bolder;">{{products.price  | currency:'LE' }}</p>
+      </div>
+    </div>
+  </div>
